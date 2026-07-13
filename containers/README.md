@@ -610,7 +610,7 @@ spec:
 ### **38. How do you upgrade a running application in Kubernetes?**  
 
 **Answer:**  
-Modify the image and apply the deployment:  
+upgrade a running application using a rolling update strategy. I update the container image version in the Deployment, and Kubernetes gradually replaces old Pods with new Pods without downtime.
 
 ```sh
 kubectl set image deployment/my-app my-container=nginx:1.20
