@@ -537,11 +537,9 @@ Cloud Load Balancer (AWS ALB/NLB)
  |
 Ingress Controller (Nginx/Traefik)
  |
-Ingress Rules
- |
 Kubernetes Service
  |
-Pods
+Pods (Microservices)
 
 ### **35. What is a Kubernetes Ingress?**  
 
