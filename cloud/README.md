@@ -78,7 +78,7 @@ Multi-cloud refers to using multiple cloud service providers (e.g., AWS, Azure, 
 
 ### **9. What is the difference between vertical and horizontal scaling?**  
 
-**Answer:**  
+**Answer:**   
 
 - **Vertical Scaling (Scaling Up):** Increasing resources (CPU, RAM) in an existing server.  
 - **Horizontal Scaling (Scaling Out):** Adding more servers to distribute the load.  
