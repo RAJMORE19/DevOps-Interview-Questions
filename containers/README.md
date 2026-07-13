@@ -319,7 +319,7 @@ kubectl set image deployment/my-app my-container=nginx:latest
 
 ### **21. What is the difference between Docker ADD and COPY?**  
 
-**Answer:**  
+**Answer:**  Both COPY and ADD are used to copy files from the host machine into the Docker image.
 
 | Feature | ADD | COPY |
 |---------|----|------|
@@ -359,7 +359,7 @@ ADD myapp.tar.gz /app/
 
 ### **23. What is the difference between Docker ENTRYPOINT and CMD?**  
 
-**Answer:**  
+**Answer:**  Both ENTRYPOINT and CMD define the command that runs when a container starts.
 
 - `ENTRYPOINT` is **not overridden by command-line arguments**, while `CMD` can be.  
 - Best practice: Use `ENTRYPOINT` for fixed commands.  
