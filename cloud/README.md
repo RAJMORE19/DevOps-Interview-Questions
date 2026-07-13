@@ -213,10 +213,8 @@ To secure data in cloud storage:
 ### **26. What is a Stateful vs. Stateless application in the cloud?**  
 
 **Answer:**  
-
-- **Stateless Application:** Doesn’t retain session data. Each request is independent (e.g., REST APIs, serverless functions).  
-- **Stateful Application:** Retains user state across requests (e.g., databases, messaging queues).  
-- **Cloud Implication:** Stateless apps scale easily, while stateful apps require persistent storage (e.g., AWS EBS, Azure Managed Disks).  
+Stateless applications don't store data, so any server or Pod can handle requests and they scale easily. Stateful applications store data, 
+so they require persistent storage like EBS or Kubernetes Persistent Volumes. For example, web APIs are stateless, while MySQL databases are stateful.
 
 ### **27. What is auto-scaling, and how does it work?**  
 
