@@ -527,6 +527,21 @@ kubectl get pods -l app=my-app
 ```
 
 ---
+### **How user accesses a Pod in Kubernetes**  
+
+User
+ |
+DNS
+ |
+Cloud Load Balancer (AWS ALB/NLB)
+ |
+Ingress Controller (Nginx/Traefik)
+ |
+Ingress Rules
+ |
+Kubernetes Service
+ |
+Pods
 
 ### **35. What is a Kubernetes Ingress?**  
 
