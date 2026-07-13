@@ -36,7 +36,7 @@ Cloud computing is classified into three types:
 ### **5. What is serverless computing?**  
 
 **Answer:**  
-Serverless means we don't manage servers directly. The cloud provider handles infrastructure and automatically scales resources. We mainly manage code and configuration, and billing is based on actual usage. 
+we don't manage servers directly. The cloud provider handles infrastructure and automatically scales resources. We mainly manage code and configuration, and billing is based on actual usage. 
 
 ### **6. What is virtualization in cloud computing?**  
 
