@@ -97,13 +97,15 @@ Cloud providers and customers share security responsibilities:
 - **Customer:** Secures applications, data, and user access.  
 
 ### **12. What is a Virtual Private Cloud (VPC)?**  
+**Answer:**  
+A **VPC** is an isolated cloud environment where users can define their own network settings, including subnets, IP addresses, and security groups.  
+
 **Subnets** → Smaller networks created inside a VPC to organize resources (e.g., Public Subnet and Private Subnet).
 **Public Subnet**: Has a route to the Internet Gateway (IGW), so resources like Load Balancer and Web Server are internet accessible.
 **Private Subnet**: Has no direct internet access. For outbound internet access (updates or Docker image pulls), it uses a NAT Gateway, which is deployed in the Public Subnet.
 **IP Addresses** → The private IP address range (CIDR block) assigned to the VPC and its subnets, such as 10.0.0.0/16.
 **Security Groups** → Virtual firewalls that control inbound and outbound traffic for resources like EC2 instances.
-**Answer:**  
-A VPC is an isolated cloud environment where users can define their own network settings, including subnets, IP addresses, and security groups.  
+
 
 ### **13. What is an Elastic Load Balancer (ELB)?**  
 
