@@ -41,7 +41,27 @@ we don't manage servers directly. The cloud provider handles infrastructure and 
 ### **6. What is virtualization in cloud computing?**  
 
 **Answer:**  
-Virtualization is the process of creating virtual instances of servers, storage, or networks. It enables multiple virtual machines (VMs) to run on a single physical server, improving resource utilization.  
+Virtualization is a technology that allows us to create multiple virtual machines on a single physical server using a hypervisor.
+
+The hypervisor divides physical resources like CPU, memory, and storage and allocates them to different virtual machines.
+
+Physical Server
+
+       |
+
+       ↓
+
+   Hypervisor
+
+       |
+
+ -----------------
+
+ |       |       |
+
+VM-1   VM-2   VM-3
+
+EC2    EC2    EC2
 
 ### **7. What is multi-cloud?**  
 
