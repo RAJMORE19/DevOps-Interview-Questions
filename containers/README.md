@@ -447,7 +447,8 @@ This removes **stopped containers, unused networks, and dangling images**.
 ### **29. What is Docker BuildKit?**  
 
 **Answer:**  
-Docker **BuildKit** improves build speed and caching.  
+Docker BuildKit is an advanced Docker build engine that improves the image build process by making builds faster, more efficient, and secure.
+In CI/CD pipelines, BuildKit helps reduce Docker image build time by using optimized caching and parallel execution.  
 Enable it with:  
 
 ```sh
