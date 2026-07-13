@@ -623,8 +623,10 @@ kubectl rollout status deployment my-app
 
 **Answer:**  
 
-- **Job**: Runs **once** and exits.  
-- **CronJob**: Runs **on a schedule** (like a Linux cron).  
+Job is used for one-time tasks in Kubernetes. It creates Pods and ensures the task completes successfully. 
+Example:  Database migration Backup task Data processing
+CronJob is used to run Jobs on a scheduled time, similar to Linux cron.
+Example:  Daily database backup Log cleanup Report generation
 
 Example:  
 
