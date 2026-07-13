@@ -653,6 +653,7 @@ spec:
 ### **40. How do you debug Kubernetes pods that are stuck in "CrashLoopBackOff"?**  
 
 CrashLoopBackOff means a container inside a Pod is continuously crashing and Kubernetes is repeatedly trying to restart it with an increasing delay.
+
 Application error or bug
 Wrong environment variables
 Configuration issue
