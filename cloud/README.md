@@ -110,7 +110,10 @@ A **VPC** is an isolated cloud environment where users can define their own netw
 ### **13. What is an Elastic Load Balancer (ELB)?**  
 
 **Answer:**  
-An ELB distributes incoming traffic across multiple servers to ensure high availability and fault tolerance.  
+we primarily use an Application Load Balancer (ALB). It handles HTTP/HTTPS traffic and supports path-based routing, so requests like /cart, /orders, and /users are routed to their respective microservices.
+If the application requires high-performance TCP/UDP traffic, we use a Network Load Balancer (NLB)
+
+In a microservices architecture, if only the Cart Service receives high traffic, Kubernetes scales only the Cart Service Pods. The Application Load Balancer continues routing /cart requests to those additional Cart Pods, while Order and User Services remain at their current replica count.
 
 ### **14. What is Object Storage in the cloud?**  
 
