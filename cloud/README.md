@@ -115,7 +115,7 @@ An ELB distributes incoming traffic across multiple servers to ensure high avail
 ### **14. What is Object Storage in the cloud?**  
 
 **Answer:**  
-Object storage is a cloud-based storage architecture that stores data as objects (instead of files or blocks). Examples include Amazon S3 and Azure Blob Storage.  
+Object Storage stores data as objects with data, metadata, and a unique ID. It's highly scalable and commonly used for images, videos, backups, and logs. In AWS, we use Amazon S3 for Object Storage.. Examples include Amazon S3 and Azure Blob Storage.  
 
 ### **15. What is Block Storage in cloud computing?**  
 
