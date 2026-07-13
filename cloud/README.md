@@ -123,12 +123,12 @@ Object Storage stores data as objects with data, metadata, and a unique ID. It's
 ### **15. What is Block Storage in cloud computing?**  
 
 **Answer:**  
-Block storage stores data in fixed-sized blocks, commonly used for databases and virtual machines. Examples: AWS EBS, Azure Managed Disks.  
+Block Storage is storage that works like a hard disk attached to a server. We use it to store the operating system, application files, and databases because it provides fast read and write performance. In AWS, Amazon EBS is the Block Storage service, and we attach it to EC2 instances  
 
 ### **16. What is a Content Delivery Network (CDN)?**  
 
 **Answer:**  
-A CDN is a distributed network of servers that caches content close to users for faster delivery. Examples: AWS CloudFront, Azure CDN.  
+A CDN makes a website faster by delivering static files like images, CSS, JavaScript, and videos from the nearest server instead of the main server. In AWS, Amazon CloudFront is the CDN service. Examples: AWS CloudFront, Azure CDN.  
 
 ### **17. What is an IAM role in cloud security?**  
 
