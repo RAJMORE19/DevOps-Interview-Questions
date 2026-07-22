@@ -15,7 +15,7 @@ Linux file permissions are Read (r=4), Write (w=2), and Execute (x=1) for Owner,
 ### **3. How do you change file permissions in Linux?**
 
 **Answer:**
-Use the chmod command to change file permissions.
+Use the **chmod** command to change file permissions.
 Numeric: chmod 755 file
 Symbolic: chmod u+x file
 It controls Read (r), Write (w), and Execute (x) permissions for the Owner, Group, and Others.
